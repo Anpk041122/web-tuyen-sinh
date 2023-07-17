@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family:'Roboto', sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+/* Header */
+
+/* Contac */
+#contact {
+    background-color: #0f5fcc;
+    padding: 30px 0;
+}
+
+#contact button {
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    position: fixed;
+}
+
+#btn-learn {
+    background-color: rgb(228, 153, 125);
+    color: white;
+    right: 550px;
+    top: 10px;
+}
+
+#btn-contact {
+    right: 400px;
+    top: 10px;
+}
+
+#btn-contact:hover,
+#btn-learn:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* end contact */
+
+/* Nav */
+#navbar li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#navbar li {
+    padding: 30px 0;
+    margin: 0 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+#navbar li:hover {
+    cursor: pointer;
+    color: #0f5fcc;
+}
+
+
+/* Sub nav */
+
+.sub-nav {
+    margin-top: 30px;
+    position: absolute;
+    background-color: rgb(28, 28, 63);
+    color: white;   
+    width: 200px;
+    display: none;
+    text-align: left;
+}
+
+    
+#navbar li:hover .sub-nav {
+    display: block;
+}
+
+
+.sub-nav li {
+    font-size: 15px !important;
+    font-weight: normal !important;
+    margin: 0 !important; 
+    width: 90%;
+    padding: 10px !important;
+    
+}
+
+.sub-nav li:hover {
+    cursor: pointer;
+    color: yellowgreen !important;
+    background-color: rgb(28, 28, 63);
+}
+/* End sub nav */
+
+
+/* end nav */
+
+/* End header */
